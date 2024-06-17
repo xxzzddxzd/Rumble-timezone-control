@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13CD23A2C057BD6004087B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13CD2392C057BD6004087B6 /* Foundation.framework */; };
+		B13CD2462C057BD6004087B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13CD2452C057BD6004087B6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B13CD2362C057BD6004087B6 /* modifytz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = modifytz; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13CD2392C057BD6004087B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B13CD23E2C057BD6004087B6 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.txt; sourceTree = "<group>"; };
+		B13CD23F2C057BD6004087B6 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		B13CD2412C057BD6004087B6 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PackageVersion.plist; path = ../PackageVersion.plist; sourceTree = "<group>"; };
+		B13CD2442C057BD6004087B6 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0xdeadfa11; sourceTree = "<group>"; };
+		B13CD2452C057BD6004087B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13CD2472C057BD6004087B6 /* modifytz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "modifytz-Prefix.pch"; path = "../modifytz-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13CD2332C057BD6004087B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13CD23A2C057BD6004087B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13CD22D2C057BD6004087B6 = {
+			isa = PBXGroup;
+			children = (
+				B13CD23B2C057BD6004087B6 /* modifytz */,
+				B13CD2382C057BD6004087B6 /* Frameworks */,
+				B13CD2372C057BD6004087B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13CD2372C057BD6004087B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2362C057BD6004087B6 /* modifytz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13CD2382C057BD6004087B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2392C057BD6004087B6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13CD23B2C057BD6004087B6 /* modifytz */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2452C057BD6004087B6 /* main.m */,
+				B13CD23C2C057BD6004087B6 /* Package */,
+				B13CD2402C057BD6004087B6 /* Supporting Files */,
+			);
+			path = modifytz;
+			sourceTree = "<group>";
+		};
+		B13CD23C2C057BD6004087B6 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD23D2C057BD6004087B6 /* DEBIAN */,
+				B13CD2422C057BD6004087B6 /* usr */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		B13CD23D2C057BD6004087B6 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD23E2C057BD6004087B6 /* control.txt */,
+				B13CD23F2C057BD6004087B6 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B13CD2402C057BD6004087B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2412C057BD6004087B6 /* PackageVersion.plist */,
+				B13CD2472C057BD6004087B6 /* modifytz-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13CD2422C057BD6004087B6 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2432C057BD6004087B6 /* bin */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		B13CD2432C057BD6004087B6 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				B13CD2442C057BD6004087B6 /* 0xdeadfa11 */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13CD2352C057BD6004087B6 /* modifytz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13CD24A2C057BD6004087B6 /* Build configuration list for PBXNativeTarget "modifytz" */;
+			buildPhases = (
+				B13CD2322C057BD6004087B6 /* Sources */,
+				B13CD2332C057BD6004087B6 /* Frameworks */,
+				B13CD2342C057BD6004087B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = modifytz;
+			productName = modifytz;
+			productReference = B13CD2362C057BD6004087B6 /* modifytz */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13CD22E2C057BD6004087B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B13CD2352C057BD6004087B6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B13CD2312C057BD6004087B6 /* Build configuration list for PBXProject "modifytz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13CD22D2C057BD6004087B6;
+			productRefGroup = B13CD2372C057BD6004087B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13CD2352C057BD6004087B6 /* modifytz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B13CD2342C057BD6004087B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13CD2322C057BD6004087B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13CD2462C057BD6004087B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B13CD2482C057BD6004087B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		B13CD2492C057BD6004087B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		B13CD24B2C057BD6004087B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = x5;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "modifytz/modifytz-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x5.modifytz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		B13CD24C2C057BD6004087B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = x5;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "modifytz/modifytz-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x5.modifytz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13CD2312C057BD6004087B6 /* Build configuration list for PBXProject "modifytz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13CD2482C057BD6004087B6 /* Debug */,
+				B13CD2492C057BD6004087B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13CD24A2C057BD6004087B6 /* Build configuration list for PBXNativeTarget "modifytz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13CD24B2C057BD6004087B6 /* Debug */,
+				B13CD24C2C057BD6004087B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13CD22E2C057BD6004087B6 /* Project object */;
+}
